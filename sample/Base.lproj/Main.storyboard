@@ -21,16 +21,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello wold!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDw-OR-oDA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello wold!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDw-OR-oDA">
                                 <rect key="frame" x="145" y="323" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5q-2Y-fdW">
+                                <rect key="frame" x="164" y="537" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a5q-2Y-fdW" secondAttribute="bottom" constant="100" id="BbP-0x-8VJ"/>
+                            <constraint firstItem="a5q-2Y-fdW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oDk-69-h9I"/>
+                            <constraint firstItem="sDw-OR-oDA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rE1-FD-AGe"/>
+                            <constraint firstItem="sDw-OR-oDA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vpk-sw-mng"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="sDw-OR-oDA" id="0n6-4v-KDb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
