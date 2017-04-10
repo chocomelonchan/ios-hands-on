@@ -18,6 +18,7 @@
 		596E6CB91E9A14E0000A8852 /* sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E6CB81E9A14E0000A8852 /* sampleUITests.swift */; };
 		596E6CC71E9A95CD000A8852 /* SampleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E6CC61E9A95CD000A8852 /* SampleImageViewController.swift */; };
 		59B64CCF1E9B015900800D49 /* IllustTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B64CCE1E9B015900800D49 /* IllustTableViewController.swift */; };
+		59E71CAD1E9B487900B65B69 /* IllustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E71CAC1E9B487900B65B69 /* IllustCell.swift */; };
 		F17906BE5D9FAEED5CBF2287 /* Pods_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2AB8F9D907FD17D2D81A6F /* Pods_sampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		596E6CBA1E9A14E0000A8852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		596E6CC61E9A95CD000A8852 /* SampleImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleImageViewController.swift; sourceTree = "<group>"; };
 		59B64CCE1E9B015900800D49 /* IllustTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IllustTableViewController.swift; sourceTree = "<group>"; };
+		59E71CAC1E9B487900B65B69 /* IllustCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IllustCell.swift; sourceTree = "<group>"; };
 		6B26C9D9B78344DCDE25E74B /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample/Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
 		8AE606CCC0A43B2D17665609 /* Pods_sampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B97A73C5D555D6AB3839D0B /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				596E6CA41E9A14E0000A8852 /* Info.plist */,
 				596E6CC61E9A95CD000A8852 /* SampleImageViewController.swift */,
 				59B64CCE1E9B015900800D49 /* IllustTableViewController.swift */,
+				59E71CAC1E9B487900B65B69 /* IllustCell.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				596E6C9B1E9A14E0000A8852 /* ViewController.swift in Sources */,
 				596E6C991E9A14E0000A8852 /* AppDelegate.swift in Sources */,
 				59B64CCF1E9B015900800D49 /* IllustTableViewController.swift in Sources */,
+				59E71CAD1E9B487900B65B69 /* IllustCell.swift in Sources */,
 				596E6CC71E9A95CD000A8852 /* SampleImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

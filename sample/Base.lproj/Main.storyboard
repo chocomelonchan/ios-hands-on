@@ -94,20 +94,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="141" id="ZCq-ga-UZM">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IllustCell" rowHeight="141" id="ZCq-ga-UZM" customClass="IllustCell" customModule="sample" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="141"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZCq-ga-UZM" id="k4m-jp-cFf">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="140.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7jJ-Q4-cy2">
+                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7jJ-Q4-cy2">
                                             <rect key="frame" x="10" y="10" width="120.5" height="120.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="7jJ-Q4-cy2" secondAttribute="height" multiplier="1:1" id="rgV-4K-jiQ"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nf-IH-wHi">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nf-IH-wHi">
                                             <rect key="frame" x="140.5" y="60" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -122,6 +122,10 @@
                                         <constraint firstItem="7jJ-Q4-cy2" firstAttribute="leading" secondItem="k4m-jp-cFf" secondAttribute="leading" constant="10" id="oSo-rc-hQS"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="illustImageView" destination="7jJ-Q4-cy2" id="8B1-6l-34R"/>
+                                    <outlet property="titleLabel" destination="7nf-IH-wHi" id="KgA-1V-jAu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
